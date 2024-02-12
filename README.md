@@ -42,12 +42,14 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![Screenshot from 2024-02-07 18-45-24](https://github.com/gowriganeshns/OS-Linux-commands-Shell-script/assets/151625159/95beee08-b7a2-4548-9abf-dc3e02bde4c5)
 
 
 
 cat < file2
 ## OUTPUT
 
+![Screenshot from 2024-02-07 18-46-27](https://github.com/gowriganeshns/OS-Linux-commands-Shell-script/assets/151625159/669a59a3-de80-4edc-bf21-94a239ca4e0b)
 
 # Comparing Files
 cmp file1 file2
