@@ -42,11 +42,11 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
-
+![Screenshot from 2024-02-07 18-45-24](https://github.com/gowriganeshns/OS-Linux-commands-Shell-script/assets/151625159/f2e02247-d5a3-4957-afdc-f100bec4537c)
 
 cat < file2
 ## OUTPUT
+![Screenshot from 2024-02-07 18-46-27](https://github.com/gowriganeshns/OS-Linux-commands-Shell-script/assets/151625159/b4f4c4d0-2097-4d2d-b205-89f216aa4450)
 
 
 # Comparing Files
