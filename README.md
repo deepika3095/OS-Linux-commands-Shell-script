@@ -48,68 +48,42 @@ cat < file1
 
 cat < file2
 ## OUTPUT
+![WhatsApp Image 2024-02-12 at 11 29 19 AM](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/c72ff23e-df20-4c08-8a16-4840261eac1f)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/c7f60bc8-07bb-43c7-88f6-f77c518174a6)
+
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/e1c1fa6a-7eb5-4573-a2f7-d332c63707c4)
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/14a11e10-748c-4837-8f8c-98a7bb7c54e8)
 
 
 #Filters
 
 ### Create the following files file11, file22 as follows:
 
-cat > file11
-```
-Hello world
-This is my world
-^d
-```
-cat > file22
-```
-1001 | Ram | 10000 | HR
-1002 | tom |  5000 | Admin
-1003 | Joe |  7000 | Developer
-^d
-```
-
-
 cut -c1-3 file11
 ## OUTPUT
-
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/40d880c3-4eeb-421a-a564-29e45404475f)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/436a7501-c522-4b02-ae39-ba1a391c5031)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
-
 cat < newfile 
-```
-Hello world
-hello world
-^d
-````
-cat > newfile 
-Hello world
-hello world
- 
-grep Hello newfile 
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/bb19a3e7-3f12-483f-a0fc-377586c7019b)
+
 ## OUTPUT
-
-
 
 grep hello newfile 
 ## OUTPUT
