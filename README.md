@@ -42,6 +42,7 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![WhatsApp Image 2024-02-12 at 11 29 19 AM](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/c94c4a76-49f4-46f7-97a8-de321ce85120)
 
 
 
