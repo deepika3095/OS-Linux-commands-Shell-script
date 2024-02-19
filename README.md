@@ -139,23 +139,20 @@ egrep '((W|w)orld$)' newfile
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/11d2f11a-d9dd-4031-ae76-4a1e5d45cbab)
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/aea04219-9477-4c77-8869-7e5a236b52cd)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/57a931c1-b4a9-474b-85f6-673a6677fa74)
 
 egrep l{2} newfile
 ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/0b0e3818-ad4a-4457-8d48-bb0b9781d525)
 
-
-
-egrep 's{1,2}' newfile
 ## OUTPUT 
 
 
@@ -171,81 +168,67 @@ cat > file23
 1001 | Ram | 10000 | HR
 ^d
 ```
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/15f71b7d-9de1-486b-95f9-d0a47edd4cb2)
 
 sed -n -e '3p' file23
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/935e41ac-cef7-4004-86bd-8468ce609fd9)
 
 sed -n -e '$p' file23
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/fde3c44c-c67b-4577-add4-04f19672d4c7)
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/515073f9-5a64-4e95-b71e-d79c8587acf6)
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/438d0526-e72c-48a8-b2c2-02c72d41d513)
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/6aa011d2-186a-414f-b514-00debb8a44e1)
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/82c39cbc-3d3d-4513-ab1d-6a6005fd5c57)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/b7e023e8-c5e4-4af6-bbcd-6438f58cad6b)
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/1430b248-5100-409c-b0f7-a6ad12c5f959)
 
 seq 10 
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/1f5d6e2f-1a7b-4eea-8552-acff8c81523b)
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/eb525a7e-43b5-4916-af88-3bc8c6b4cdca)
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/84f84424-6a15-4d3b-a285-941d3fe16861)
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/7bea0f04-279e-4903-a337-d4902ebd4032)
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/eafaeb58-e136-4d78-8e1f-bd4de3e2ff9d)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/18284ae2-1458-43d2-adf9-c938b0e768e3)
 
-sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/12731e6d-a860-400f-a9bb-2f5065523170)
 
 sed -n '2,4{s/$/*/;p}' file23
 
@@ -260,8 +243,10 @@ cat > file21
 1004 | Sit |  7000 | Dev
 ``` 
 sort file21
-## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/e5d6736e-cf4e-41a3-b67d-1782fb4559b3)
 
+## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/c09905f2-fb18-476a-96fc-e262f634d64e)
 
 cat > file22
 ```
@@ -274,13 +259,13 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/5f25712f-0ef9-4879-9d54-e78ff0d86f5e)
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/a0e3114f-c0d9-439d-9d0a-240feb23dfe9)
 
 cat < urllist.txt
 ```
