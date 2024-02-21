@@ -274,7 +274,7 @@ www. google. com
 www. mrcet.... com
 ^d
  ```
-cat > urllist.txt
+
 ```
 www. yahoo. com
 www. google. com
@@ -282,33 +282,24 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/aef9e430-000a-4eca-a90b-5c110a4f8b44)
 
-
- 
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/c3162aaa-49f9-4871-975f-c899bad6ddad)
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/259a58b1-5889-4760-8ec0-f67ea57c7483)
 mkdir backupdir
- 
-mv backup.tar backupdir
- 
+mv backup.tar backupdir 
 tar -tvf backup.tar
 ## OUTPUT
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/27f00a78-61df-4953-b159-2234ef1e8472)
 
 tar -xvf backup.tar
-## OUTPUT
 
-gzip backup.tar
-
-ls .gz
 ## OUTPUT
  
 gunzip backup.tar.gz
@@ -323,7 +314,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/afc0c9d8-08cc-49a9-8235-205fba08f5b7)
  
 cat << stop > herecheck.txt
 ```
@@ -335,7 +326,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/5e1aca06-9374-43db-bda5-283be4eb0fc6)
 
 cat < scriptest.sh 
 ```bash
@@ -373,24 +364,22 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
- 
-ls file1
-## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/5afd01d6-bc49-420d-9376-f1d88e9b0178)
 
 echo $?
 ## OUTPUT 
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/e7518e15-b5da-412c-a1ed-a9f6bc85220d)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/475f954a-2446-4788-b1e9-341e2605a36b)
+
 abcd
  
 echo $?
- ## OUTPUT
-
 
  
 # mis-using string comparisons
@@ -422,14 +411,12 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/edc85466-c0c5-4b1f-a35d-a6ce33e630b5)
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-
 
 # check file ownership
 cat < psswdperm.sh 
@@ -526,21 +513,8 @@ fi
 
 
 cat iftest.sh 
-```bash
-\#!/bin/bash
-val1=10
-val2=11
-if [ $val1 -gt 5 ]
-then
-echo “The test value $val1 is greater than 5”
-fi
-if [ $val1 -eq $val2 ]
-then
-echo “The values are equal”
-else
-echo “The values are different”
-fi
-```
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/49a3408b-2e23-4f73-9cf2-407575a726c6)
+vi
 
 $ chmod 755 iftest.sh
  
