@@ -301,11 +301,8 @@ tar -tvf backup.tar
 tar -xvf backup.tar
 
 ## OUTPUT
- 
-gunzip backup.tar.gz
-## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/daaccfa5-068f-4c51-88a6-1334d3eb57cd)
 
- 
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
@@ -314,8 +311,8 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/afc0c9d8-08cc-49a9-8235-205fba08f5b7)
- 
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/0873e9e1-fc55-454b-9b95-af81ffff5b78)
+
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -326,7 +323,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/5e1aca06-9374-43db-bda5-283be4eb0fc6)
+
 
 cat < scriptest.sh 
 ```bash
@@ -358,6 +355,7 @@ echo 'The $\# is ' $\#
 echo 'The $$ is ' $$
 ps
 ```
+ 
  
 chmod 777 scriptest.sh
  
@@ -410,13 +408,14 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/edc85466-c0c5-4b1f-a35d-a6ce33e630b5)
+## OUTPUT
+vi ![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/2266709f-d5df-4e6e-8825-f7a4e29cf7d0)
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/0f088335-0b68-436e-b56e-a413b3316a37)
 
 # check file ownership
 cat < psswdperm.sh 
