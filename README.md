@@ -442,6 +442,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/3194dc09-c476-4167-a39e-779103ef8029)
 
 # check if with file location
 cat>ifnested.sh 
@@ -488,8 +489,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/cfa8b86b-0e65-478d-aeaa-5a507d5bedc9)
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -518,7 +518,8 @@ vi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/fe1af2ba-772b-44ba-938f-01691ae96134)
 
 # check if a file
 cat > ifnested.sh 
@@ -567,7 +568,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/969d3670-be61-4d5b-81d2-d53103223e8d)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -596,7 +598,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/4f69c2a2-0a5d-47db-af34-ce60e46db3b5)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -612,6 +614,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/3ba0b9af-a6b9-433f-8acf-dd42ecf4932d)
 
 # using the case command
 cat >casecheck.sh 
@@ -631,6 +634,7 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+ ## Output
  
 cat > whiletest
 ```bash
@@ -647,7 +651,8 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
+  ## Output
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -661,7 +666,9 @@ done
 $ chmod 755 untiltest.sh
  
  
- 
+ ## Output
+ ![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/f7fe8180-dde0-4567-b576-c29d30b63b55)
+
 cat forin1.sh 
 ```bash
 \#!/bin/bash
@@ -674,7 +681,9 @@ done
  
 $ chmod 755 forin1.sh
  
- 
+ ## Output
+ ![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/169b4ed1-16f1-4f17-b7cc-e3cd3d5ab22a)
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -686,7 +695,9 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+## Output
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/b46800a0-8101-495c-a66b-7c12c548322e)
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -699,7 +710,9 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+  ## Output
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/885626ba-ec97-4b35-8972-68e3f4d814ab)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -710,7 +723,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+  ## Output
+ ![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/169b4ed1-16f1-4f17-b7cc-e3cd3d5ab22a)
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -723,15 +738,15 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
 # reading values from a file
-file="cities"
-for state in `cat $file`
+file ="cities"
+for state in 'cat $file'
 do
-echo "Visit beautiful $file“
-done
+echo "Visit beautiful $file"
 ```
 $ chmod 777 forinfile.sh
 $ cat cities
