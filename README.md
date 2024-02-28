@@ -640,7 +640,7 @@ $ chmod 755 casecheck.sh
  
 $ ./casecheck.sh 
  ## Output
-![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/b52c92db-7325-4895-bd3b-47760cf3166e)
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/fe7a02fc-d0b2-4e2d-ba89-721ff176f8f6)
  
 cat > whiletest
 ```bash
