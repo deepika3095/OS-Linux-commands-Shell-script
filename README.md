@@ -760,7 +760,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/574b0afb-3ad3-4828-ac48-5d979e526cf5)
 
 cat forctype.sh 
 ```bash
@@ -806,29 +806,22 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
- 
 cat forbreak.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
-for var1 in 1 2 3 4 5
+for (( a = 1; a <= 3; a++ ))
 do
-if [ $var1 -eq 3 ]
-then
-break
-fi
-echo "Iteration number: $var1"
+echo "Starting loop $a:"
+for (( b = 1; b <= 3; b++ ))
+do
+echo " Inside loop: $b"
 done
-echo "The for loop is completed“
+done
 ```
 ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/5886b0bd-edc6-4d83-b401-61b9ddb331c7)
 
-$ chmod 755 forbreak.sh
- 
-$ ./forbreak.sh 
- 
-cat forbreak.sh 
-```bash
 #!/bin/bash
 # breaking out of a for loop
 for var1 in 1 2 3 4 5
@@ -845,9 +838,11 @@ echo "The for loop is completed“
  
 $ chmod 755 forcontinue.sh
  
-$ ./forcontinue.sh 
-## OUTPUT
- 
+$ ./forcontinue.sh
+
+## Output
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/9e300000-78b9-4cd8-946b-f45db1165511)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -861,22 +856,19 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/f3ff861f-287d-435f-8c13-916ab64a3c91)
 
  cat exread1.sh
 ```bash
 #!/bin/bash
 # testing the read command
 read -p "Enter your name: " name
-echo "Hello $name, welcome to my program. “
+echo "Hello $name, welcome to my program."
 ``` 
 $ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
-
 $ ./exread1.sh 
+## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/6f9813a8-bd25-462e-9795-e4a084be4f6c)
  
 cat funcex.sh
 ```bash
@@ -892,13 +884,10 @@ echo "The result is $value"
 else
 echo "Usage: badtest1 a b"
 fi
-```
-## OUTPUT
  ./funcex.sh 
 
- 
- ./funcex.sh 1 2
 
+## OUTPUT
  
 cat argshift.sh
 ```bash
@@ -909,11 +898,11 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
-
-## OUTPUT
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
+## OUTPUT
+
 ```bash
  #/bin/bash 
  # store arguments in a special array 
@@ -927,10 +916,11 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
+## OUTPUT
+
 ```bash
 #!/bin/bash 
 set -x 
@@ -940,9 +930,8 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
  ./argshift.sh 1 2 3
- 
+## OUTPUT 
  
 cat > nc.awk
 ```bash
