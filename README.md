@@ -738,8 +738,9 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/b7c20d6d-66f8-467d-b66c-868ef70c6989)
 
-cat forinfile.sh 
+cat forinfile.sh
 ```bash
 #!/bin/bash
 # reading values from a file
@@ -998,8 +999,5 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
-## OUTPUT 
-
-
 # RESULT:
 The Commands are executed successfully.
