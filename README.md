@@ -22,7 +22,10 @@ Testing the commands for the desired output.
 
 # COMMANDS:
 ### Create the following files file1, file2 as follows:
+![WhatsApp Image 2024-02-12 at 11 29 19 AM](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/c94c4a76-49f4-46f7-97a8-de321ce85120)
+
 cat > file1
+
 ```
 chanchal singhvi
 c.k. shukla
@@ -30,6 +33,8 @@ s.n. dasgupta
 sumit chakrobarty
 ^d
 ```
+![WhatsApp Image 2024-02-12 at 11 29 19 AM](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/c72ff23e-df20-4c08-8a16-4840261eac1f)
+
 cat > file2
 ```
 anil aggarwal
@@ -635,23 +640,26 @@ $ chmod 755 casecheck.sh
  
 $ ./casecheck.sh 
  ## Output
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/b52c92db-7325-4895-bd3b-47760cf3166e)
  
 cat > whiletest
 ```bash
 #!/bin/bash
-#while command test
-var1=10
+#while command testvar1=10
 while [ $var1 -gt 0 ]
 do
-echo $var1
-var1=$[ $var1 - 1 ]
+    echo $var1
+    var1=$((var1 - 1))
 done
+
 ```
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
-  ## Output
+## Output
+
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/1bb38a5a-a9b2-469f-bbf9-a9c9340cf742)
 
 cat untiltest.sh 
 ```bash
@@ -774,6 +782,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/6acc050e-aa63-4d2d-b440-9a40d8a1481f)
 
 cat forctype1.sh 
 ```bash
@@ -787,6 +796,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/8760b0ff-f3b8-4584-8d1d-97f9f87e400a)
 
 cat fornested1.sh 
 ```bash
@@ -805,6 +815,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/8760b0ff-f3b8-4584-8d1d-97f9f87e400a)
 
 cat forbreak.sh 
 ```bash
@@ -841,8 +852,6 @@ $ chmod 755 forcontinue.sh
 $ ./forcontinue.sh
 
 ## Output
-![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/9e300000-78b9-4cd8-946b-f45db1165511)
-
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -851,7 +860,8 @@ echo -n "Enter your name: "
 read name
 echo "Hello $name, welcome to my program. "
  ```
- 
+ ![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/8760b0ff-f3b8-4584-8d1d-97f9f87e400a)
+
 $ chmod 755 exread.sh 
  
 $ ./exread.sh 
@@ -888,7 +898,7 @@ fi
 
 
 ## OUTPUT
- 
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -901,7 +911,10 @@ $ chmod 777 argshift.sh
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
+  ![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/459c29c3-5e8d-42ae-aaf7-2d4f0a2fced2)
+
 ## OUTPUT
+ ![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/459c29c3-5e8d-42ae-aaf7-2d4f0a2fced2)
 
 ```bash
  #/bin/bash 
@@ -920,6 +933,7 @@ $ ./argshift.sh 1 2 3
  
 cat argshift.sh
 ## OUTPUT
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/4fd8f472-9df2-46d4-8329-b05d7d8ecfdd)
 
 ```bash
 #!/bin/bash 
@@ -932,7 +946,8 @@ set +x
 ```
  ./argshift.sh 1 2 3
 ## OUTPUT 
- 
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/b5aa5283-0b2f-4fc4-9e78-d26cb4dbb6ea)
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -962,6 +977,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/b9081380-aee0-4a0c-8739-afbd1cc9af42)
+![image](https://github.com/deepika3095/OS-Linux-commands-Shell-script/assets/151625159/96f7397c-343d-46cd-92dc-b4506d22e953)
  
 cat > palindrome.sh
 ```bash
