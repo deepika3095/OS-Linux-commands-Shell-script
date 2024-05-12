@@ -1,7 +1,5 @@
-# Date: 29.02.2024
-# Name: Deepika R
-# Department: AI & DS
-# Register Number: 212223230038
+# 212223230038
+# DEEPIKA R
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
